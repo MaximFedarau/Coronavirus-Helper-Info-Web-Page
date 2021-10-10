@@ -68,7 +68,7 @@ const server = http.createServer((req,res) => {
     })
 })
 
-const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 3388
 
 server.listen(PORT, () => {
     console.log("Server has been started...")
